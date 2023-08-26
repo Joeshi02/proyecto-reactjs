@@ -5,3 +5,11 @@
 .color{
     background-color: #6495ed;
 }
+@font-face {
+    font-family: 'MiFuente'; /* Nombre de la fuente */
+    src: url('../font/') format('truetype');
+}
+
+body {
+    font-family: 'MiFuente', sans-serif;
+}
