@@ -1,15 +1,18 @@
-.logo{ 
-    width: 170px;
-    height: 70px;
-}
-.color{
-    background-color: #6495ed;
-}
-@font-face {
-    font-family: 'MiFuente'; /* Nombre de la fuente */
-    src: url('../font/') format('truetype');
+.logo {
+  width: 170px;
+  height: 70px;
 }
 
-body {
-    font-family: 'MiFuente', sans-serif;
+.color {
+  background-color: #6495ed;
 }
+
+@font-face {
+  font-family: "MiFuente"; /* Nombre de la fuente */
+  src: url("../font/LEMONMILK-BoldItalic.otf") format("truetype");
+}
+body {
+  font-family: "MiFuente", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
