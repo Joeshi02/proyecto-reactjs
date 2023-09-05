@@ -10727,8 +10727,8 @@ textarea.form-control-lg {
 }
 
 @font-face {
-  font-family: "MiFuente"; /* Nombre de la fuente */
-  src: url("../font/LEMONMILK-BoldItalic.otf") format("truetype");
+  font-family: "MiFuente";
+  src: url("../font/LEMONMILK-MediumItalic.otf") format("truetype");
 }
 body {
   font-family: "MiFuente", sans-serif;
