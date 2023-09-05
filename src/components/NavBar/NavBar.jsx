@@ -9,19 +9,19 @@ const NavBar = () => {
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul className="navbar-nav fs-5">
-                        <li className="nav-item">
+                        <li className="nav-item colorNav">
                             <a className="nav-link" aria-current="page" href="#">INICIO</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item colorNav">
                             <a className="nav-link" href="#">NOSOTROS</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item colorNav">
                             <a className="nav-link" href="#">PRODUCTOS</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item colorNav">
                             <a className="nav-link" href="#">SERVICIOS</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item colorNav">
                             <a className="nav-link" href="#">CONTACTO</a>
                         </li>
                         <CartWidget />
