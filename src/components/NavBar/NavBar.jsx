@@ -1,29 +1,27 @@
+import { Link } from "react-router-dom"
 import CartWidget from "../CartWidget/CartWidget"
 const NavBar = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-light p-0">
             <div className="container-fluid color">
-                <a className="navbar-brand" href="#"><img src="../images_limit/agua_import.png" className = "logo img-fluid" alt="logo" /></a>
+                <Link className="navbar-brand" to="/"><img src="../images_limit/agua_import.png" className = "logo img-fluid" alt="logo" /></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul className="navbar-nav fs-5">
-                        <li className="nav-item colorNav">
-                            <a className="nav-link" aria-current="page" href="#">INICIO</a>
+                        <li className="nav-item">
+                            <Link to="/category/motores" className="nav-link letras" >MOTORES</Link>
                         </li>
-                        <li className="nav-item colorNav">
-                            <a className="nav-link" href="#">NOSOTROS</a>
+                        <li className="nav-item">
+                            <Link to="/category/suspencion" className="nav-link letras" >SUSPENCIONES</Link>
                         </li>
-                        <li className="nav-item colorNav">
-                            <a className="nav-link" href="#">PRODUCTOS</a>
+                        <li className="nav-item">
+                            <Link to="/category/manubrios" className="nav-link letras" >MANUBRIOS</Link>
                         </li>
-                        <li className="nav-item colorNav">
-                            <a className="nav-link" href="#">SERVICIOS</a>
-                        </li>
-                        <li className="nav-item colorNav">
+                        {/* <li className="nav-item">
                             <a className="nav-link" href="#">CONTACTO</a>
-                        </li>
+                        </li> */}
                         <CartWidget />
                     </ul>
                 </div>
