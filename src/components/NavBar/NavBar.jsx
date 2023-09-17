@@ -9,7 +9,7 @@ const NavBar = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul className="navbar-nav fs-5">
+                    <ul className="navbar-nav fs-5 d-flex align-items-center">
                         <li className="nav-item">
                             <Link to="/category/motores" className="nav-link letras" >MOTORES</Link>
                         </li>
