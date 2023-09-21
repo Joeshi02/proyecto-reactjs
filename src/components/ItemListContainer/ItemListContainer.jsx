@@ -16,7 +16,7 @@ const mockAPI = (categoryName) => {
                 resolve(productsJSON);
             }
             
-        },1000);
+        },100);
     });
 };
 

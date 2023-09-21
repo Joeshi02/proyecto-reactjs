@@ -3,11 +3,13 @@ import CartWidget from "./components/CartWidget/CartWidget"
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer"
+import { ThemeProvider } from "./context/cartContex"
 function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <ThemeProvider>
+      <BrowserRouter>
       <header>
         <NavBar />
       </header>
@@ -16,7 +18,9 @@ function App() {
         <Route exact path="/category/:categoryName" element = {<ItemListContainer/>}/>
         <Route exact path="/item/:itemId" element = {<ItemDetailContainer/>}/>
       </Routes>
-    </BrowserRouter>   
+    </BrowserRouter>
+    </ThemeProvider>
+       
     </>
   )
 }

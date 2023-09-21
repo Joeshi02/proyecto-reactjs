@@ -14,7 +14,7 @@ const detailAPI = (itemId) => {
             }else{
                 resolve(productsJSON)
             }
-        },1000);
+        },100);
     });
 };
 
@@ -28,7 +28,7 @@ export default function ItemDetailContainer ({}) {
     },[itemId]);
 
     return (
-        <div>
+        <div className="d-flex justify-content-center">
             <ItemDetail product={products}/>
         </div>
     )

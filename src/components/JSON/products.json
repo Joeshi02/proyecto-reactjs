@@ -5,7 +5,7 @@
         "category": "motores",
         "price": "2.000.000",
         "description": "Motor Suzuki Grand Vitara año 2008 ",
-        "stock": "1",
+        "stock": 5,
         "imgUrl": "https://gr8autophoto.com/images/suzuki-grand-vitara-1.9-ddis-05.jpg"
     },
     {
@@ -14,7 +14,7 @@
         "category": "motores",
         "price": "1.500.000",
         "description": "Motor Nissan Navara año 2010",
-        "stock": "1",
+        "stock": 5,
         "imgUrl": "https://image.made-in-china.com/2f0j00nIabfcURVqkE/Secondhand-Complete-Diesel-Engine-Yd25-Engine-Assembly-Used-for-Nissan-Navara.jpg"
     },
     {
@@ -23,7 +23,7 @@
         "category": "motores",
         "price": "1.800.000",
         "description": "Motor Mtisubishi Pajero año 2005",
-        "stock": "1",
+        "stock": 5,
         "imgUrl": "https://image.made-in-china.com/2f0j00BwpWMYjmwRbd/2-4L-Del-Motor-4G64-Engine-for-Mitsubishi-Pajero-V31-Space-Wagon-Delica-Hyundai-Terracan.jpg"
     },
     {
@@ -32,7 +32,7 @@
         "category": "motores",
         "price": "2.200.0000",
         "description": "Motor Kia Sorento año 2010",
-        "stock": "1",
+        "stock": 5,
         "imgUrl": "https://eet-engines.com/wp-content/uploads/2020/09/2914_1.JPG"
     },
     {
@@ -41,7 +41,7 @@
         "category": "suspencion",
         "price": "1.500.000",
         "description": "PACK PERFORMANCE PARA FORD RAPTOR 2019-2020",
-        "stock": "3",
+        "stock": 5,
         "imgUrl": "https://svcoffroad.com/cdn/shop/products/Ford_Raptor_gen_2_suspension_package_deal_svcoffraod_fox_live_valve_620x.png?v=1600320699"
     },
     {
@@ -50,7 +50,7 @@
         "category": "suspencion",
         "price": "2.500.000",
         "description": "KIT PERFORMANCE FORD RAPTOR CAMBURG",
-        "stock": "2",
+        "stock": 5,
         "imgUrl": "https://camburg.com/wp-content/uploads/2019/07/Camburg17RaptorKing3.0Kit_1.jpg"
     },
     {
@@ -59,7 +59,7 @@
         "category": "suspencion",
         "price": "2.000.000",
         "description": "KIT PERFORMANCE FORD F-150 CAMBURG",
-        "stock": "3",
+        "stock": 5,
         "imgUrl": "https://camburg.com/wp-content/uploads/2019/07/Camburg_09F150_Fox2.5Dsc_Kit_1.jpg"
     },
     {
@@ -68,7 +68,7 @@
         "category": "suspencion",
         "price": "2.200.000",
         "description": "KIT PERFORMANCE FORD F-150 CAMBURG",
-        "stock": "1",
+        "stock": 5,
         "imgUrl": "https://camburg.com/wp-content/uploads/2019/07/Camburg_14F150_King2.5_Kit_1-1.jpg"
     },
     {
@@ -77,7 +77,7 @@
         "category": "manubrios",
         "price": "200.000",
         "description": "El volante MOMO Indy tiene un bello acabado de madera de caoba acentuada por sus rayos cortados de aluminio cepillado. Su apariencia antigua evoca a los volantes clásicos de madera de años anteriores y refleja la herencia de 50 años de MOMO, la cual comenzó en 1964. El diámetro del MOMO Indy es de 350mm, con hendiduras para los dedos en la parte trasera de la rueda. El volante Indy incluye el logo Heritage Prototipo en el botón de bocina.",
-        "stock": "5",
+        "stock": 5,
         "imgUrl": "https://momo.com/es-sa/13976-large_default/momo-indy.jpg"
     },
     {
@@ -86,7 +86,7 @@
         "category": "manubrios",
         "price": "300.000",
         "description": "Gamuza negra, rayos negros. Con botones. La marca de cuero amarillo en la parte superior brinda una rápida guía de referencia.",
-        "stock": "3",
+        "stock": 5,
         "imgUrl": "https://momo.com/es-sa/21498-home_default/momo-mod-80.jpg"
     },
     {
@@ -95,7 +95,7 @@
         "category": "manubrios",
         "price": "400.000",
         "description": "El MOMO MOD. El volante de carreras 88 cuenta con un diseño de fondo plano que facilita entrar y salir de un asiento de carreras con refuerzos laterales altos para las piernas al brindar más espacio entre las piernas del conductor y el volante. Tres radios anodizados negros y un agarre grueso cubierto de gamuza premium ayudan a brindar el máximo control incluso en las condiciones de conducción más extremas. El MOD. 88 viene equipado con un botón de bocina MOMO, una característica adicional que no está disponible en todos los volantes de carreras MOMO.",
-        "stock": "4",
+        "stock": 5,
         "imgUrl": "https://momo.com/es-sa/13988-home_default/momo-mod-88.jpg"
     },
     {
@@ -104,7 +104,7 @@
         "category": "manubrios",
         "price": "500.000",
         "description": "La forma plana de la parte inferior del MOD 30 permite entrar y salir del vehículo de carrera más fácilmente. El aro cubierto de gamuza está anatómicamente moldeado para proveer un agarre óptimo. Los rayos y espacio para descansar los pulgares del volante MOMO MOD 30, brindan al piloto diferentes opciones dónde apoyar los pulgares dependiendo de la posición de manos de su preferencia. Sus rayos horizontales contienen botones interruptores rojos.",
-        "stock": "2",
+        "stock": 5,
         "imgUrl": "https://momo.com/es-sa/13985-home_default/momo-mod-30-buttons.jpg"
     }
 ]
