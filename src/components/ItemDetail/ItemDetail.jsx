@@ -1,9 +1,15 @@
 import { Link } from "react-router-dom";
 import ItemCount from "../ItemCount/itemCount";
+import { useContext, useState } from "react";
+import { CartContext } from "../../context/cartContex";
 export default function ItemDetail ({ product }) {
+    const [cantidad , setCantidad] = useState (0)
+    const {addItem} = useContext(CartContext)
     const handleOnAdd = (count)  =>{
-
-        console.log(`agregaste ${count} al carrito`)}
+        setCantidad(count)
+        addItem(product, count)
+    console.log('se agregaron ',count , 'unidades del producto ', product.name );
+        }
     return (
         <div className="productos text-center border border-2 ">
             
@@ -13,8 +19,8 @@ export default function ItemDetail ({ product }) {
             <p className="d-flex justify-content-center categorias letras">$ {product.price}</p>
             <p className="d-flex justify-content-center categorias letras">DESCRIPCION: {product.description}</p>
             <p className="d-flex justify-content-center categorias letras">STOCK: {product.stock}</p>
-            <ItemCount stock={product.stock} initial={1} onAdd={handleOnAdd}/>
-            
+            {cantidad > 0  ? <Link to ={"/Cart"}><button className="contador categorias letras">Finalizar Compra</button></Link> : <ItemCount stock={product.stock} initial={0} onAdd={handleOnAdd}/> }
+            <Link to = '/'><button className="contador categorias letras">Seguir comprando</button> </Link>
         </div>
     );
 }

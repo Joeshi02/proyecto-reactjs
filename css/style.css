@@ -10763,6 +10763,22 @@ body {
 
 .contador {
   margin: 5px;
+  list-style: none;
+  text-decoration: none;
+}
+
+.pdng {
+  padding-bottom: 8px;
+}
+
+.cartDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.maxWdt {
+  max-width: 500px;
 }
 
 /*# sourceMappingURL=style.css.map */
