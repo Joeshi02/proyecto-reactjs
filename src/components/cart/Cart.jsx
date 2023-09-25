@@ -1,7 +1,7 @@
 import { useContext } from "react"
 import { CartContext } from "../../context/cartContex"
 import { Link } from 'react-router-dom';
-import CartItem from "../itemCart/itemCart";
+import ItemCart from "../itemCart/itemCart";
 
 const Cart = () => {
     const {cartList, clear ,getTotal} = useContext(CartContext)
@@ -11,7 +11,7 @@ const Cart = () => {
         (
         <div>
             <div className='productos '>
-                {cartList.map((e) => <CartItem key={e.id} product={e} />)}
+                {cartList.map((e) => <ItemCart key={e.id} product={e} />)}
                     <div className="cartDisplay">
                     <p>{`Total:  $ ${getTotal()}`}</p>
                     <button className="mb-2"  onClick={clear}>Vaciar Carrito</button>
