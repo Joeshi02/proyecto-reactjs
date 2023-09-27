@@ -1,25 +1,7 @@
 import { useEffect, useState } from "react";
-// import productsJSON from "../JSON/products.json"
 import ItemList from "../ItemList/ItemList"
 import { useParams } from "react-router-dom";
 import {collection, getDocs, getFirestore, query, where} from "firebase/firestore"
-
-// const mockAPI = (categoryName) => {
-
-//     return new Promise ((resolve, reject) =>{
-//         setTimeout(() =>{
-//             if(categoryName !== undefined) {
-//                 const filtro = productsJSON.filter(
-//                     (item) => item.category === categoryName
-//                 );
-//             resolve(filtro)
-//             }else{
-//                 resolve(productsJSON);
-//             }
-            
-//         },100);
-//     });
-// };
 
 export default function ItemListContainer  ({greeting}) {
     const [products, setProducts] = useState ([]);
@@ -42,10 +24,6 @@ export default function ItemListContainer  ({greeting}) {
     }, [categoryName])
 
 
-    // useEffect(() => {
-    //     mockAPI(categoryName).then((data) => setProducts(data));
-    // },[categoryName]);
-    
     return(
         <div>
             <h2 className="d-flex justify-content-center" >{greeting}</h2>

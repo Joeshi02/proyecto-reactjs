@@ -26,8 +26,8 @@ const CartContextProvider = ({ children }) => {
     };
     
     const removeItem = (itemId) => {
-        const updatedCart = cartList.filter((item) => item.id !== itemId);
-        setCartList(updatedCart);
+        const remove = cartList.filter((item) => item.id !== itemId);
+        setCartList(remove);
     };
     const clear = () => {
         setCartList([]);
@@ -36,9 +36,9 @@ const CartContextProvider = ({ children }) => {
         return cartList.some((item) => item.id === itemId);
     };
     const getQty = () => {
-        let cant = 0
-        cartList.forEach((e) => cant += e.quantity)
-        return cant
+        let cantidad = 0
+        cartList.forEach((e) => cantidad += e.quantity)
+        return cantidad
     };
     
     const getTotal = () => {

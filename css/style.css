@@ -10781,4 +10781,10 @@ body {
   max-width: 500px;
 }
 
+.formulario {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
 /*# sourceMappingURL=style.css.map */
