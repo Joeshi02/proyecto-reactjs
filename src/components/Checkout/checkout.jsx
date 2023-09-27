@@ -34,8 +34,9 @@ export default function Checkout () {
     }
     if(orderId){
         return (
-            <div>
-                <h2 className="d-flex justify-content-center">{`Gracias por su compra, el id de tu compra es ${orderId}` }</h2>
+            <div className="check">
+                <h2 className="d-flex justify-content-center">{`Gracias por su compra, el id de tu compra es: `}</h2>
+                <span className="card d-flex text-success p-1"> { orderId } </span>
                 <Link className="contador d-flex justify-content-center" to='/'><button onClick={clear}>Volver a la tienda</button></Link>
             </div>
         
