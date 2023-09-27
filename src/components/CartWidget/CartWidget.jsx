@@ -7,7 +7,7 @@ const CartWidget = () => {
     return (
         <Link to='/cart'> 
         <li className="pdng colorNav">
-            <img src="../images_limit/carrito-de-compras.png" alt="carrito" />
+            <img src="https://i.postimg.cc/0j3PSCdQ/carrito-de-compras.png" alt="carrito" />
             {getQty()> 0 &&<button className="contador categorias letras">{getQty()} </button>  }
         </li>
         </Link>
