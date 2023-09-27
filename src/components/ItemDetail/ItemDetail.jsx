@@ -19,7 +19,7 @@ export default function ItemDetail ({ product }) {
             <p className="d-flex justify-content-center categorias letras">$ {product.price}</p>
             <p className="d-flex justify-content-center categorias letras">DESCRIPCION: {product.description}</p>
             <p className="d-flex justify-content-center categorias letras">STOCK: {product.stock}</p>
-            {cantidad > 0  ? <Link to ={"/Cart"}><button className="contador categorias letras">Finalizar Compra</button></Link> : <ItemCount stock={product.stock} initial={0} onAdd={handleOnAdd}/> }
+            {cantidad > 0  ? <Link to ={"/Cart"}><button className="contador categorias letras">Finalizar Compra</button></Link> : <ItemCount stock={product.stock} initial={1} onAdd={handleOnAdd}/> }
             <Link to = '/'><button className="contador categorias letras">Seguir comprando</button> </Link>
         </div>
     );
